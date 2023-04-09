@@ -62,7 +62,7 @@ main{
 }
 
 .right-part-container p:not(.add-t-cart){
-    margin-bottom: .5em;
+    margin-bottom: .7em;
 }
 
 .right-part-container .head{
@@ -99,6 +99,12 @@ main{
     background-color: hsl(158, 36%, 37%);
     border-radius: 6px;
     cursor: pointer;
+    transition: 400ms;
+}
+
+.right-part-container .foot:hover{
+    background-color:  hsl(212, 21%, 14%);
+    transition: 400ms;
 }
 
 .right-part-container .foot img{
