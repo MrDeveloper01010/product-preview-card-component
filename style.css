@@ -14,7 +14,7 @@ body{
 main{
     display: flex;
     flex-direction: column;
-    justify-content: center
+    justify-content: center;
     align-items:center;
     width: 100%;
     min-height: 100vh;
@@ -142,7 +142,7 @@ main{
         display: flex;
         flex-direction: column;
         max-width: 1440px;
-        height: 90%;
+        height: 100%;
         width: 375px;
     }
     
@@ -168,13 +168,12 @@ main{
     }
 
     .right-part-container p:not(.add-t-cart){
-        margin-bottom:0;
+        margin-bottom:1.1em;
     }
     
     @media all and (max-width: 380px){
         .parent-container{
-            width: 100%;
-            margin: 0 .5em;
+            width: 95%;
         }
         .left-part-container{
             height: 30%;
@@ -183,4 +182,8 @@ main{
             height:70%;
         }
     }
+    .attribution{
+        margin-bottom: 0;
+    }
+    
 }
